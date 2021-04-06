@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.Menu"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:layout_margin="40dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/deskripsi_gambar" />
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/btnProfile"
+            android:layout_margin="30sp"
+            android:layout_gravity="bottom|center"
+            android:text="@string/profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:background="@color/colorPrimaryDark"
+            android:id="@+id/btnLogout"
+            android:layout_margin="30sp"
+            android:layout_gravity="bottom|center"
+            android:text="@string/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</RelativeLayout>
