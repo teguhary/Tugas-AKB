@@ -17,7 +17,7 @@
             android:id="@+id/imgMenu"
             android:layout_margin="40dp"
             android:layout_gravity="center"
-            android:src="@mipmap/ic_launcher_round"
+            android:src="@drawable/logo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:contentDescription="@string/deskripsi_gambar" />
